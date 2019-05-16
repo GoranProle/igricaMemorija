@@ -1,0 +1,172 @@
+html,body {
+	margin: 0;
+	padding: 0;
+}
+#wrapper, #wrapper2, #wrapper3, #wrapper4 {
+	width: 100%;
+	min-height: 100vh;
+}
+.kontejner {
+	width: 600px;
+	height: 600px;
+	border: 2px solid #eee;
+	margin: 0 auto;
+}
+.kontejnerMali {
+	width: 300px;
+	height: 300px;
+	border: 2px solid #eee;
+	margin: 0 auto;
+}
+.kontejnerMali {
+	width: 300px;
+	height: 300px;
+	border: 2px solid #eee;
+	margin: 0 auto;
+}
+.boks {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	float: left;
+	position: relative;
+}
+.boksMali {
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	float: left;
+	position: relative;
+}
+.lice {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	transform: perspective(200px) rotateY(180deg);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
+.liceMalo {
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	transform: perspective(120px) rotateY(180deg);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
+.nalicje {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	border: 1px solid #eee;
+	background: rgb(190,225,47);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
+.nalicjeMalo {
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	background: rgb(190,225,47);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
+.nalicje2 {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	background: rgb(241,97,8);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
+.nalicjeMalo2 {
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	background: rgb(241,97,8);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
+.nalicje3 {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	background: rgb(70,70,70);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
+.nalicjeMalo3 {
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	background: rgb(70,70,70);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
+.nalicje4 {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	background: rgb(187,49,23);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
+.nalicjeMalo4 {
+	width: 50px;
+	height: 50px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	background: rgb(187,49,23);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
+.poruka {
+  	text-align: center;
+  	margin-top: -20px;
+  	font-family: arial;
+ 	font-weight: bold;
+  }
+ .poruka2 {
+ 	text-align: right;
+  	margin-top: -18px;
+  	font-family: arial;
+ 	font-weight: bold;
+ 	font-size: 12px;
+ }
+.naslov {
+	width: 600px;
+	height: 20px;
+	margin: 4px auto;
+}
+.naslovMali {
+	width: 300px;
+	height: 20px;
+	margin: 4px auto;
+}
+button {
+	font-weight: bold;
+	cursor: pointer;
+}
+.logo {
+	text-align: center;
+}
