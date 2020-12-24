@@ -9,16 +9,16 @@ jQuery(document).ready(function($) {
 		var kontejner = $('.kontejnerMali');
 	}
 	if (sirinaEkrana >= 600) {
-		var slicice = ['<img src="images/m/01a.jpg"/>','<img src="images/m/02a.jpg"/>','<img src="images/m/03a.jpg"/>','<img src="images/m/04a.jpg"/>',
-			'<img src="images/m/05a.jpg"/>','<img src="images/m/06a.jpg"/>','<img src="images/m/07a.jpg"/>','<img src="images/m/08a.jpg"/>',
-			'<img src="images/m/09a.jpg"/>','<img src="images/m/10a.jpg"/>','<img src="images/m/11a.jpg"/>','<img src="images/m/12a.jpg"/>',
-			'<img src="images/m/13a.jpg"/>','<img src="images/m/14a.jpg"/>','<img src="images/m/15a.jpg"/>','<img src="images/m/16a.jpg"/>',
-			'<img src="images/m/17a.jpg"/>','<img src="images/m/18a.jpg"/>',
-			'<img src="images/m/01b.jpg"/>','<img src="images/m/02b.jpg"/>','<img src="images/m/03b.jpg"/>','<img src="images/m/04b.jpg"/>',
-			'<img src="images/m/05b.jpg"/>','<img src="images/m/06b.jpg"/>','<img src="images/m/07b.jpg"/>','<img src="images/m/08b.jpg"/>',
-			'<img src="images/m/09b.jpg"/>','<img src="images/m/10b.jpg"/>','<img src="images/m/11b.jpg"/>','<img src="images/m/12b.jpg"/>',
-			'<img src="images/m/13b.jpg"/>','<img src="images/m/14b.jpg"/>','<img src="images/m/15b.jpg"/>','<img src="images/m/16b.jpg"/>',
-			'<img src="images/m/17b.jpg"/>','<img src="images/m/18b.jpg"/>'];
+		var slicice = ['<img src="images/m/01e.jpg"/>','<img src="images/m/02e.jpg"/>','<img src="images/m/03e.jpg"/>','<img src="images/m/04e.jpg"/>',
+			'<img src="images/m/05e.jpg"/>','<img src="images/m/06e.jpg"/>','<img src="images/m/07e.jpg"/>','<img src="images/m/08e.jpg"/>',
+			'<img src="images/m/09e.jpg"/>','<img src="images/m/10e.jpg"/>','<img src="images/m/11e.jpg"/>','<img src="images/m/12e.jpg"/>',
+			'<img src="images/m/13e.jpg"/>','<img src="images/m/14e.jpg"/>','<img src="images/m/15e.jpg"/>','<img src="images/m/16e.jpg"/>',
+			'<img src="images/m/17e.jpg"/>','<img src="images/m/18e.jpg"/>',
+			'<img src="images/m/01f.jpg"/>','<img src="images/m/02f.jpg"/>','<img src="images/m/03f.jpg"/>','<img src="images/m/04f.jpg"/>',
+			'<img src="images/m/05f.jpg"/>','<img src="images/m/06f.jpg"/>','<img src="images/m/07f.jpg"/>','<img src="images/m/08f.jpg"/>',
+			'<img src="images/m/09f.jpg"/>','<img src="images/m/10f.jpg"/>','<img src="images/m/11f.jpg"/>','<img src="images/m/12f.jpg"/>',
+			'<img src="images/m/13f.jpg"/>','<img src="images/m/14f.jpg"/>','<img src="images/m/15f.jpg"/>','<img src="images/m/16f.jpg"/>',
+			'<img src="images/m/17f.jpg"/>','<img src="images/m/18f.jpg"/>'];
 	} else {
 		var slicice = ['<img src="images/m/01c.jpg"/>','<img src="images/m/02c.jpg"/>','<img src="images/m/03c.jpg"/>','<img src="images/m/04c.jpg"/>',
 			'<img src="images/m/05c.jpg"/>','<img src="images/m/06c.jpg"/>','<img src="images/m/07c.jpg"/>','<img src="images/m/08c.jpg"/>',

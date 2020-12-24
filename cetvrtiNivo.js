@@ -2,23 +2,23 @@ jQuery(document).ready(function($) {
 	var sirinaEkrana = window.innerWidth;
 	var wrapper = $('#wrapper4');
 	if (sirinaEkrana >= 600) {
-		wrapper.append('<div class="naslov"><button id="dugme" onclick="history.go(0)">Nova igra</button><div class="poruka"></div></div><div class="kontejner"></div><div class="logo"></div>');
+		wrapper.append('<div class="naslov"><button class="dugme" onclick="history.go(0)">Nova igra</button><div class="poruka"></div></div><div class="kontejner"></div><div class="logo"></div>');
 		var kontejner = $('.kontejner');
 	} else {
-		wrapper.append('<div class="naslovMali"><button id="dugme2" onclick="history.go(0)">Nova igra</button><div class="poruka2"></div></div><div class="kontejnerMali"></div><div class="logo"></div>');
+		wrapper.append('<div class="naslovMali"><button class="dugme2" onclick="history.go(0)">Nova igra</button><div class="poruka2"></div></div><div class="kontejnerMali"></div><div class="logo"></div>');
 		var kontejner = $('.kontejnerMali');
 	}
 	if (sirinaEkrana >= 600) {
-		var slicice = ['<img src="images/m/61a.jpg"/>','<img src="images/m/62a.jpg"/>','<img src="images/m/63a.jpg"/>','<img src="images/m/64a.jpg"/>',
-		'<img src="images/m/65a.jpg"/>','<img src="images/m/66a.jpg"/>','<img src="images/m/67a.jpg"/>','<img src="images/m/68a.jpg"/>',
-		'<img src="images/m/69a.jpg"/>','<img src="images/m/70a.jpg"/>','<img src="images/m/71a.jpg"/>','<img src="images/m/72a.jpg"/>',
-		'<img src="images/m/73a.jpg"/>','<img src="images/m/74a.jpg"/>','<img src="images/m/75a.jpg"/>','<img src="images/m/76a.jpg"/>',
-		'<img src="images/m/77a.jpg"/>','<img src="images/m/78a.jpg"/>',
-		'<img src="images/m/61b.jpg"/>','<img src="images/m/62b.jpg"/>','<img src="images/m/63b.jpg"/>','<img src="images/m/64b.jpg"/>',
-		'<img src="images/m/65b.jpg"/>','<img src="images/m/66b.jpg"/>','<img src="images/m/67b.jpg"/>','<img src="images/m/68b.jpg"/>',
-		'<img src="images/m/69b.jpg"/>','<img src="images/m/70b.jpg"/>','<img src="images/m/71b.jpg"/>','<img src="images/m/72b.jpg"/>',
-		'<img src="images/m/73b.jpg"/>','<img src="images/m/74b.jpg"/>','<img src="images/m/75b.jpg"/>','<img src="images/m/76b.jpg"/>',
-		'<img src="images/m/77b.jpg"/>','<img src="images/m/78b.jpg"/>'];
+		var slicice = ['<img src="images/m/61e.jpg"/>','<img src="images/m/62e.jpg"/>','<img src="images/m/63e.jpg"/>','<img src="images/m/64e.jpg"/>',
+		'<img src="images/m/65e.jpg"/>','<img src="images/m/66e.jpg"/>','<img src="images/m/67e.jpg"/>','<img src="images/m/68e.jpg"/>',
+		'<img src="images/m/69e.jpg"/>','<img src="images/m/70e.jpg"/>','<img src="images/m/71e.jpg"/>','<img src="images/m/72e.jpg"/>',
+		'<img src="images/m/73e.jpg"/>','<img src="images/m/74e.jpg"/>','<img src="images/m/75e.jpg"/>','<img src="images/m/76e.jpg"/>',
+		'<img src="images/m/77e.jpg"/>','<img src="images/m/78e.jpg"/>',
+		'<img src="images/m/61f.jpg"/>','<img src="images/m/62f.jpg"/>','<img src="images/m/63f.jpg"/>','<img src="images/m/64f.jpg"/>',
+		'<img src="images/m/65f.jpg"/>','<img src="images/m/66f.jpg"/>','<img src="images/m/67f.jpg"/>','<img src="images/m/68f.jpg"/>',
+		'<img src="images/m/69f.jpg"/>','<img src="images/m/70f.jpg"/>','<img src="images/m/71f.jpg"/>','<img src="images/m/72f.jpg"/>',
+		'<img src="images/m/73f.jpg"/>','<img src="images/m/74f.jpg"/>','<img src="images/m/75f.jpg"/>','<img src="images/m/76f.jpg"/>',
+		'<img src="images/m/77f.jpg"/>','<img src="images/m/78f.jpg"/>'];
 	} else {
 		var slicice = ['<img src="images/m/61c.jpg"/>','<img src="images/m/62c.jpg"/>','<img src="images/m/63c.jpg"/>','<img src="images/m/64c.jpg"/>',
 		'<img src="images/m/65c.jpg"/>','<img src="images/m/66c.jpg"/>','<img src="images/m/67c.jpg"/>','<img src="images/m/68c.jpg"/>',
@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
 	var okrenute = [];  
 	var nedodirljivi = [];       
 	var kraj = 0;
-	var vreme = 90; // vreme predvidjeno da se predje 4. nivo
+	var vreme = 120; // vreme predvidjeno da se predje 4. nivo
 
 	for (var i = 0; i < 36; i++) {
 		var rand = Math.floor(Math.random()*slicice.length);
@@ -63,13 +63,13 @@ jQuery(document).ready(function($) {
     			boksovi.off();
     			clearInterval(a);
     			if (kraj === 18) {
-    				if (sirinaEkrana >= 600) {
-    					$('#dugme').get(0).style.visibility = 'hidden';
-    				} else {
-    					$('#dugme2').get(0).style.visibility = 'hidden';
-    				}
-     				$('.poruka').text('REŠILI STE NIVO 4 - KRAJ IGRE');
-    				$('.poruka2').text('REŠILI STE NIVO 4 - KRAJ IGRE').css('text-align','center');
+					$('.dugme').text('Nova igra - Nivo 5');
+    				$('.dugme2').text('Nova igra - Nivo 5');
+    				$('.poruka').text('REŠILI STE NIVO 4');
+    				$('.poruka2').text('REŠILI STE NIVO 4');  
+    				$('button').click(function() {
+    					location.href = "petiNivo.html";
+    				})	
       			} else {
     				$('.poruka').text('VREME JE ISTEKLO'); 
     				$('.poruka2').text('VREME JE ISTEKLO'); 

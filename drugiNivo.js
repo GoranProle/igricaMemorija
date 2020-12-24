@@ -9,16 +9,16 @@ jQuery(document).ready(function($) {
 		var kontejner = $('.kontejnerMali');
 	}
 	if (sirinaEkrana >= 600) {
-		var slicice = ['<img src="images/m/21a.jpg"/>','<img src="images/m/22a.jpg"/>','<img src="images/m/23a.jpg"/>','<img src="images/m/24a.jpg"/>',
-		'<img src="images/m/25a.jpg"/>','<img src="images/m/26a.jpg"/>','<img src="images/m/27a.jpg"/>','<img src="images/m/28a.jpg" />',
-		'<img src="images/m/29a.jpg"/>','<img src="images/m/30a.jpg"/>','<img src="images/m/31a.jpg"/>','<img src="images/m/32a.jpg" />',
-		'<img src="images/m/33a.jpg"/>','<img src="images/m/34a.jpg"/>','<img src="images/m/35a.jpg"/>','<img src="images/m/36a.jpg" />',
-		'<img src="images/m/37a.jpg"/>','<img src="images/m/38a.jpg"/>',
-		'<img src="images/m/21b.jpg"/>','<img src="images/m/22b.jpg"/>','<img src="images/m/23b.jpg"/>','<img src="images/m/24b.jpg" />',
-		'<img src="images/m/25b.jpg"/>','<img src="images/m/26b.jpg"/>','<img src="images/m/27b.jpg"/>','<img src="images/m/28b.jpg" />',
-		'<img src="images/m/29b.jpg"/>','<img src="images/m/30b.jpg"/>','<img src="images/m/31b.jpg"/>','<img src="images/m/32b.jpg" />',
-		'<img src="images/m/33b.jpg"/>','<img src="images/m/34b.jpg"/>','<img src="images/m/35b.jpg"/>','<img src="images/m/36b.jpg" />',
-		'<img src="images/m/37b.jpg"/>','<img src="images/m/38b.jpg"/>'];
+		var slicice = ['<img src="images/m/21e.jpg"/>','<img src="images/m/22e.jpg"/>','<img src="images/m/23e.jpg"/>','<img src="images/m/24e.jpg"/>',
+		'<img src="images/m/25e.jpg"/>','<img src="images/m/26e.jpg"/>','<img src="images/m/27e.jpg"/>','<img src="images/m/28e.jpg" />',
+		'<img src="images/m/29e.jpg"/>','<img src="images/m/30e.jpg"/>','<img src="images/m/31e.jpg"/>','<img src="images/m/32e.jpg" />',
+		'<img src="images/m/33e.jpg"/>','<img src="images/m/34e.jpg"/>','<img src="images/m/35e.jpg"/>','<img src="images/m/36e.jpg" />',
+		'<img src="images/m/37e.jpg"/>','<img src="images/m/38e.jpg"/>',
+		'<img src="images/m/21f.jpg"/>','<img src="images/m/22f.jpg"/>','<img src="images/m/23f.jpg"/>','<img src="images/m/24f.jpg" />',
+		'<img src="images/m/25f.jpg"/>','<img src="images/m/26f.jpg"/>','<img src="images/m/27f.jpg"/>','<img src="images/m/28f.jpg" />',
+		'<img src="images/m/29f.jpg"/>','<img src="images/m/30f.jpg"/>','<img src="images/m/31f.jpg"/>','<img src="images/m/32f.jpg" />',
+		'<img src="images/m/33f.jpg"/>','<img src="images/m/34f.jpg"/>','<img src="images/m/35f.jpg"/>','<img src="images/m/36f.jpg" />',
+		'<img src="images/m/37f.jpg"/>','<img src="images/m/38f.jpg"/>'];
 	} else {
 		var slicice = ['<img src="images/m/21c.jpg"/>','<img src="images/m/22c.jpg"/>','<img src="images/m/23c.jpg"/>','<img src="images/m/24c.jpg"/>',
 		'<img src="images/m/25c.jpg"/>','<img src="images/m/26c.jpg"/>','<img src="images/m/27c.jpg"/>','<img src="images/m/28c.jpg" />',
@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
 	var okrenute = [];  
 	var nedodirljivi = [];       
 	var kraj = 0;
-	var vreme = 150; // vreme predvidjeno da se predje 2. nivo
+	var vreme = 160; // vreme predvidjeno da se predje 2. nivo
 
 	for (var i = 0; i < 36; i++) {
 		var rand = Math.floor(Math.random()*slicice.length);
