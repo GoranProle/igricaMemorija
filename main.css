@@ -1,22 +1,31 @@
-html,body {
-	margin: 0;
-	padding: 0;
-}
 #wrapper, #wrapper2, #wrapper3, #wrapper4, #wrapper5 {
-	width: 100%;
-	min-height: 100vh;
+	border: 20px solid white;
+	background-color: white;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+.kontejnerVeliki {
+	width: 640px;
+	height: 670px;
 }
 .kontejner {
 	width: 480px;
 	height: 480px;
-	border: 2px solid #eee;
-	margin: 0 auto;
 }
 .kontejnerMali {
-	width: 300px;
+	width: 304px;
 	height: 300px;
 	border: 2px solid #eee;
 	margin: 0 auto;
+}
+.boksVeliki {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	float: left;
+	position: relative;
 }
 .boks {
 	width: 80px;
@@ -33,6 +42,16 @@ html,body {
 	border: 1px solid black;
 	float: left;
 	position: relative;
+}
+.licePoveliko {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	transform: perspective(200px) rotateY(180deg);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
 }
 .lice {
 	width: 80px;
@@ -51,6 +70,16 @@ html,body {
 	border: 1px solid #eee;
 	position: absolute;
 	transform: perspective(120px) rotateY(180deg);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
+.nalicjeVeliko {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	border: 1px solid #eee;
+	background: rgb(190,225,47);
 	backface-visibility: hidden;
 	transition: transform 0.7s linear;
 }
@@ -74,6 +103,16 @@ html,body {
 	backface-visibility: hidden;
 	transition: transform 0.7s linear;
 }
+.nalicjeVeliko2 {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	background: rgb(241,97,8);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
 .nalicje2 {
 	width: 80px;
 	height: 80px;
@@ -91,6 +130,16 @@ html,body {
 	border: 1px solid #eee;
 	position: absolute;
 	background: rgb(241,97,8);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
+.nalicjeVeliko3 {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	background: rgb(70,70,70);
 	backface-visibility: hidden;
 	transition: transform 0.7s linear;
 }
@@ -114,6 +163,16 @@ html,body {
 	backface-visibility: hidden;
 	transition: transform 0.7s linear;
 }
+.nalicjeVeliko4 {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	background: rgb(187,49,23);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
 .nalicje4 {
 	width: 80px;
 	height: 80px;
@@ -131,6 +190,16 @@ html,body {
 	border: 1px solid #eee;
 	position: absolute;
 	background: rgb(187,49,23);
+	backface-visibility: hidden;
+	transition: transform 0.7s linear;
+}
+.nalicjeVeliko5 {
+	width: 100px;
+	height: 100px;
+	box-sizing: border-box;
+	border: 1px solid #eee;
+	position: absolute;
+	background: rgb(22,70,115);
 	backface-visibility: hidden;
 	transition: transform 0.7s linear;
 }
@@ -168,9 +237,9 @@ html,body {
  	font-size: 12px;
  }
 .naslov {
-	width: 480px;
+	width: 521px;
 	height: 20px;
-	margin: 4px auto;
+	margin-bottom: 4px;
 }
 .naslovMali {
 	width: 300px;
@@ -181,6 +250,7 @@ button {
 	font-weight: bold;
 	cursor: pointer;
 }
-.logo {
+.logoNovi {
+	margin-top: -95px;
 	text-align: center;
 }
