@@ -87,7 +87,7 @@ jQuery(document).ready(function($) {
     	var a = setInterval(function(){
     		vreme--;
     		if (vreme === 0 || kraj === 18) {
-    			boksovi.unbind(); // boksovi.off();
+    			boksovi.off();
     			clearInterval(a);
     			if (kraj === 18) {
     				$('.dugmic').append(' - Nivo 2');
@@ -140,7 +140,7 @@ jQuery(document).ready(function($) {
 				klikni--;
 			} else {	
 				if (klikni === 2) {
-					boksovi.unbind(); // boksovi.off();
+					boksovi.off();
 
 					//console.log(okrenute[0].html().substring(98,101));
 					//console.log(okrenute[1].html().substring(98,101));
